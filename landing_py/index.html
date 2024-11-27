@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./static/img/logo.jpg" />
+  <title>SolidType</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Icon FontAwesome y Bootstrap-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <div class="no vengas a leer, curioso!" style="width:100%; background:#1E1A46CC ; height: 84px;" id="inicio">
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./static/img/logo.svg" alt="" />
+        </div>
+        <div class="menu-derecho">
+          <ul class="list">
+            <li class="list_item">
+              <div class="list_button">
+                <i class="bi bi-house"></i>
+                <a href="#inicio" class="nav__link">Inicio</a>
+              </div>
+            </li>
+            <li class="list_item">
+              <div class="list_button">
+                <i class="bi bi-ui-checks"></i>
+                <a href="#formulario" class="nav__link">Formulario</a>
+              </div>
+            </li>
+            <li class="list_item">
+              <div class="list_button">
+                <i class="bi bi-chat-dots"></i>
+                <div class="nav__link">Redes Sociales</div>
+                <i class="bi bi-plus" id="plus-icon"></i>
+              </div>
+              <ul class="list__show">
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/solidtype-rd-499502299/" class="nav__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=61553090004333" class="nav__link" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-whatsapp"></i>
+                    <a href="https://api.whatsapp.com/send?phone=8292038725" class="nav__link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-telegram"></i>
+                    <a href="https://t.me/SolidType" class="nav__link" target="_blank" rel="noopener noreferrer">Telegram</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.instagram.com/solidtype_rd/" class="nav__link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-twitter-x"></i>
+                    <a href="https://twitter.com/solidtype_rd" class="nav__link" target="_blank" rel="noopener noreferrer">Twitter</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-youtube"></i>
+                    <a href="https://www.youtube.com/@SolidType_RD" class="nav__link" target="_blank" rel="noopener noreferrer">YouTube</a>
+                  </div>
+                </li>
+                <li class="list__inside">
+                  <div class="list_button__inside">
+                    <i class="bi bi-tiktok"></i>
+                    <a href="https://www.tiktok.com/@solidtype_rd" class="nav__link" target="_blank" rel="noopener noreferrer">TikTok</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="list_item">
+              <div class="list_button">
+                <i class="bi bi-ui-checks"></i>
+                <a href="#servicios" class="nav__link">Servicios</a>
+              </div>
+            </li>
+            <li class="list_item">
+              <div class="list_button">
+                <i class="bi bi-people"></i>
+                <a href="#sobre" class="nav__link">Sobre Nosotros</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="hambuger">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="bi bi-list"></i>
+          </label>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <div class="container_1" id="formulario">
+    <svg viewBox="0 0 1350 600" style="position: absolute; color:red;" id="cero">
+      <text x="68%" y="30%" fill="transparent" text-anchor="middle">
+        SolidType
+      </text>
+    </svg>
+
+    <div class="encabezado">
+      <div class="encabezado_1">
+        <div class="formulario ">
+          <form action="/" method="post">
+            <h1>Contáctanos</h1>
+            <div id="titulo"></div>
+            <label for="">Nombre</label>
+            <input type="text" required id="nombre">
+            <label for="">Correo</label>
+            <input type="text" required id="correo">
+            <label for="">Celular</label>
+            <input type="text" required id="celular">
+            <label for="">Asunto</label>
+            <input type="text" required id="asunto">
+            <div class="boton">
+              <button id="enviar">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="desarrollo ">
+          <p>Nuestro equipo altamente capacitado se dedica a crear experiencias <br> digitales excepcionales. <br> <br>
+            Entendemos que tu presencia es una extensión de tu marca, y estamos <br>aquí para hacer que esa extensión sea sobresaliente.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text_2">
+      <span id="servicios"> Te invitamos a explorar nuestros servicios y a conocer a nuestro talentoso equipo.
+      </span>
+    </div>
+
+    <div class="tarjetas">
+      <div class="tarjetas_1">
+        <img src="./static/img/cell.png" alt="">
+        <h1> Mobiles Developer </h1>
+        <p>Desarrollo de Aplicaciones Móviles Personalizadas; creación de Aplicaciones a Medida para satisfacer las necesidades específicas de un cliente. <br> <br>
+          Diseño de Interfaz de Usuario (UI) y Experiencia de Usuario (UX): </p>
+      </div>
+      <div class="tarjetas_1">
+        <img src="./static/img/web.png" alt="">
+        <h1>Web Developer</h1>
+        <p>Diseño de Sitios Web, creación de Diseños Atractivos y funcionales que se adapten a las necesidades y la identidad de la marca del cliente. <br> <br>
+          Utilizando tecnologías web como HTML, CSS, JavaScript, REACT, entre otros.</p>
+      </div>
+      <div class="tarjetas_1">
+        <img src="./static/img/sofware.png" alt="">
+        <h1>Sofware Developer</h1>
+        <p>Creación de sistemas, programas y soluciones de software para satisfacer las necesidades del clientes. <br> <br>
+          Estas empresas cuentan con equipos de Ingenieros de Software, Desarrolladores, Analistas, Diseñadores y otros profesionales.</p>
+      </div>
+    </div>
+    <div class="linea"></div>
+
+    <div class="text_1">Programadores</div>
+
+    <div class="contt">
+      <div class="conteiner">
+        <div class="prev"><i class="fa-solid fa-circle-chevron-left"></i></div>
+        <div class="slider">
+
+          <div class="slider_1">
+            <img src="./static/img/carlos.jpg" alt="">
+            <h1>Carlos Del Rosario</h1>
+            <p>Desarrollador Web, Desktop, Móvil, Seguridad Cibernética y Adm. de Servidores</p>
+          </div>
+          <div class="slider_1">
+            <img src="./static/img/johan.jpg" alt="">
+            <h1>Johan Diaz</h1>
+            <p> Ing.Sistema, Desarrollador Desktop y Móvil </p>
+          </div>
+          <div class="slider_1">
+            <img src="./static/img/ney1.jpg" alt="">
+            <h1>Angel Matos</h1>
+            <p> Ing.Sistema, Desarrollador Web Full Stack, Movil y Analista De Datos</p>
+          </div>
+          <div class="slider_1">
+            <img src="./static/img/felipe.jpg" alt="">
+            <h1>Felipe B.L.</h1>
+            <p>Diseñador y Desarrollador Web FullStack</p>
+          </div>
+          <div class="slider_1">
+            <img src="./static/img/maxwell.jpg" alt="">
+            <h1>Maxwell Tejada</h1>
+            <p> Mercadólogo, Desarrollador Desktop y Móvil, Diseñador y Psicólogo General</p>
+          </div>
+          <div class="slider_1">
+            <img src="./static/img/adder.png" alt="">
+            <h1>Adderlis Severino</h1>
+            <p> Ing. Systemas, Apps Dev., Desktop Dev., Android/IOS y </br> Security Researcher.</p>
+          </div>
+        </div>
+        <div class="next"><i class="fa-solid fa-circle-chevron-right"></i></div>
+      </div>
+    </div>
+    <div class="text_1">Ultimos Dos Proyectos Realizados </div>
+    <div class="container_2">
+      <div class="fotos">
+        <img src="./static/img/agencia.png" alt="">
+        <img src="./static/img/agropecuaria.png" alt="">
+      </div>
+    </div>
+
+    <div class="text_8"></div>
+
+    <div class="whatsapp-fijo">
+      <a href="https://api.whatsapp.com/send?phone=8292038725" target="_blank" rel="noopener noreferrer">
+        <img src="./static/img/WS.png" alt="whatsapp" class="whatsapp_img">
+      </a>
+    </div>
+    </main>
+
+    <footer id="sobre">
+      <div class="container-fluid m-0 ">
+        <div class="row pb-2 mr-1">
+          <div class="col align-items-start">
+            <div class="col-sm-2 mx-auto " style="margin-top: 15px;">
+              <h3 class="ft">SolidType</h3>
+            </div>
+            <div class="text box sb pt-4">
+              <p class="text" style="font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px; font-weight: 400; justify-content: center;">
+                Somos una empresa de desarrollo especializado en ofrecer soluciones tecnologicas a medida para
+                sastifacer las necesidades de nuestros clientes. Nuestro equipo de expertos desarrolladores trabajan encansablemte.
+                con una solidad trayectoria de sastifaccion del cliente y un enfoque en la excelencia técnica. Estamos listos
+                para convertir sus ideas en realidad porque "¡Si puedes imaginarlo, podemos programarlo!".
+              </p>
+            </div>
+          </div>
+          <div class="row pb-2">
+            <div class="col ml-3 cts">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2 text-center" style="margin-top: 15px;">
+                <h3 class="ft">Productos</h3>
+              </div>
+              <div class="text box text-center cts">
+                <ul class="center-ul">
+                  <li>Punto de Venta</li>
+                  <li>Sistema Contables</li>
+                  <li>Aplicaciones Web</li>
+                  <li>Páginas Web</li>
+                  <li>Aplicaciones Móviles</li>
+                  <li>Software Desktop</li>
+                  <li>---------------</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="col sr align-items-end ml-4">
+            <h3 class="ft1" style="margin-top: 15px;     font-family: Arial, Helvetica, sans-serif; font-weight: 400;">Redes Sociales</h3>
+            <div class="row text box center-ul pt-4 pl-5">
+              <ul class="center-ul pr-4">
+                <li class="mb-2"><a href="https://www.facebook.com/profile.php?id=61553090004333"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> Facebook</a></li>
+                <li class="mb-2"><a href="https://www.instagram.com/solidtype_rd/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i> Instagram</a></li>
+                <li class="mb-2"><a href="info@solidtype.net"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> Email</a></li>
+                <li class="mb-2"><a href="https://api.whatsapp.com/send?phone=8292038725"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> Whatsapp</a></li>
+              </ul>
+              <ul class="center-ul">
+                <li class="mb-2"><a href="https://www.tiktok.com/@solidtype_rd"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> TikTok</a></li>
+                <li class="mb-2"><a href="https://twitter.com/solidtype_rd"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i> Twitter</a></li>
+                <li class="mb-2"><a href="https://t.me/SolidType"> <i class="fa-brands fa-telegram" style="color: #ffffff;"></i> Telegram</a></li>
+                <li class="mb-2"><a href="https://www.linkedin.com/in/solidtype-rd-499502299/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> Linked-In</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="container pb-1">
+          <small class="copy"></small>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+  <script src="./static/js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  landing:
+    container_name: landing-st-py
+    image: landing_py:v1
+    restart: unless-stopped
+    ports:
+      - ${CONT_PORT}:8000
+    environment:
+      - EMAIL=${EMAIL}
+      - DESTINATARIO=${DESTINATARIO}
+      - PASSWORD=${PASSWORD}
+      - SMTP_SERVER=${SMTP_SERVER}
+      - SMTP_PORT=${SMTP_PORT}
+      - FAST_ADMIN=${FAST_ADMIN}
+      - FAST_CLAVE=${FAST_CLAVE}
